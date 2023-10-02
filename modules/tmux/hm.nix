@@ -2,7 +2,12 @@
 
 let
   theme = config.lib.stylix.colors {
-    templateRepo = config.lib.stylix.templates.base16-tmux;
+    templateRepo = pkgs.fetchFromGitHub {
+        owner = "refnil";
+        repo = "base16-tmux";
+        rev = "f954509b7ea43c2f34c19d505abed2d29030ae0a";
+        sha256 = "sha256-JefVq2qcKcqKLd8Bpq9TAFUwr/Jx6rdD/PpI3fM5iXo=";
+    };
   };
 
 in {
