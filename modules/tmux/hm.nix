@@ -3,10 +3,10 @@
 let
   theme = config.lib.stylix.colors {
     templateRepo = pkgs.fetchFromGitHub {
-        owner = "tinted-theming";
+        owner = "refnil";
         repo = "base16-tmux";
-        rev = "30fc84afc723e027d4497a284fcae3cb75097441";
-        sha256 = "JJ/eRqTayuEKrL9MBe943HpKy7yLyd2Dmes58KN1jdk=";
+        rev = "f954509b7ea43c2f34c19d505abed2d29030ae0a";
+        sha256 = "sha256-JefVq2qcKcqKLd8Bpq9TAFUwr/Jx6rdD/PpI3fM5iXo=";
     };
   };
 
